@@ -1,0 +1,186 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Sep 07 16:43:25 2015
+# Process ID: 2184
+# Log file: C:/Users/PL/Workspace Git Hub/Assignment1-474A/vivado.log
+# Journal file: C:/Users/PL/Workspace Git Hub/Assignment1-474A\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/PL/Workspace Git Hub/Assignment1-474A/Assignment1.xpr}
+add_files -norecurse {{C:/Users/PL/Workspace Git Hub/Assignment1-474A/Assignment1.srcs/sources_1/new/REG_Testbench.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top REG [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top REG [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+refresh_design
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_2
+refresh_design
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MUL [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MUL [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+refresh_design
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+close [ open {C:/Users/PL/Workspace Git Hub/Assignment1-474A/Assignment1.srcs/sources_1/new/474a_circuit4.v} w ]
+add_files {{C:/Users/PL/Workspace Git Hub/Assignment1-474A/Assignment1.srcs/sources_1/new/474a_circuit4.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top REG [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+refresh_design
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit4 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit4 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+refresh_design
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+close [ open {C:/Users/PL/Workspace Git Hub/Assignment1-474A/Assignment1.srcs/sources_1/new/474a_circuit5.v} w ]
+add_files {{C:/Users/PL/Workspace Git Hub/Assignment1-474A/Assignment1.srcs/sources_1/new/474a_circuit5.v}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit5 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit5 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+refresh_design
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+create_run synth_2 -flow {Vivado Synthesis 2015} -strategy {Vivado Synthesis Defaults}
+current_run [get_runs synth_2]
+set_property part xc7a50tcsg324-3 [current_project]
+launch_runs synth_2
+wait_on_run synth_2
+close_design
+launch_runs impl_2
+wait_on_run impl_2
+create_run synth_3 -flow {Vivado Synthesis 2015} -strategy {Vivado Synthesis Defaults}
+current_run [get_runs synth_3]
+set_property part xc7a100tfgg484-3 [current_project]
+launch_runs impl_3
+wait_on_run impl_3
+open_run impl_3
+report_timing_summary -delay_type max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+set_property is_global_include true [get_files  {{C:/Users/PL/Workspace Git Hub/Assignment1-474A/Assignment1.srcs/sources_1/new/474a_circuit4.v}}]
+update_compile_order -fileset sources_1
+undo
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit4 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit4 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_3
+launch_runs impl_3
+wait_on_run impl_3
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top circuit5 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_3
+launch_runs impl_3
+wait_on_run impl_3

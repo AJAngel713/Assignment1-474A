@@ -5,7 +5,7 @@
 
 
 module SHR(a, sh_amt, d);
-    parameter DATAWIDTH = 2;
+    parameter DATAWIDTH = 16;
     input [DATAWIDTH-1:0] a;
     input [DATAWIDTH-1:0] sh_amt;
     output reg [DATAWIDTH-1:0] d;

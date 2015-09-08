@@ -5,7 +5,7 @@
 
 
 module ADD(a, b, sum);
-    parameter DATAWIDTH = 2;
+    parameter DATAWIDTH = 64;
     input [DATAWIDTH-1:0] a;
     input [DATAWIDTH-1:0] b;
     output reg [DATAWIDTH-1:0] sum;

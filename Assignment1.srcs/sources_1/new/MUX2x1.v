@@ -5,7 +5,7 @@
 
 
 module MUX2x1(a, b, sel, d);
-    parameter DATAWIDTH = 2;
+    parameter DATAWIDTH = 64;
     input [DATAWIDTH-1:0] a;
     input [DATAWIDTH-1:0] b;
     input sel;

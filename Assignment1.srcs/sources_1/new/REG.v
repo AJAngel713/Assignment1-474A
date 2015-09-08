@@ -5,13 +5,18 @@
 
 
 module REG(d, Clk, Rst, q);
-    parameter DATAWIDTH = 2;
+    parameter DATAWIDTH = 64;
     input [DATAWIDTH-1:0] d;
     input Clk, Rst;
     output reg [DATAWIDTH-1:0] q;
     
-    always @(Clk, Rst)begin
-        q <= d;
+    always @(posedge Clk)begin
+        if (Rst)begin
+            q <= 0;
+        end
+        else begin
+            q <= d;
+        end
     end
     
 endmodule
